@@ -6,3 +6,19 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
+
+  img {
+    height: 32px;
+    width: auto;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .about{
+    width: 500px;
+    margin: auto;
+    border: solid 1px grey;
+    box-shadow: 10px 5px 10px lightgray;
+  }
