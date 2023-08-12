@@ -7,7 +7,7 @@ body {
     -moz-osx-font-smoothing: grayscale;
   }
 
-  img {
+  .socImg > img {
     height: 32px;
     width: auto;
   }
@@ -19,6 +19,53 @@ body {
   .about{
     width: 500px;
     margin: auto;
+    background-color: white;
     border: solid 1px grey;
-    box-shadow: 10px 5px 10px lightgray;
+    box-shadow: 3px 2px 2px black;
+    border-left: none;
+  }
+
+  .socialLinks {
+    text-align: end;
+  }
+
+  .headding{
+    justify-content: space-around;
+    width: 750px;
+    margin:auto;
+    margin-top: 30px
+  }
+
+  .flexContainer{
+    display: flex;
+  }
+
+  .portrait{
+    text-align: center;
+    position: relative;
+  }
+
+  .portrait > img {
+    width: 250px;
+    height: 400px;
+    object-fit: cover;
+    vertical-align: middle;
+    border: 1px solid black;
+  }
+
+  .portrait > h3 {
+    color: white;
+    position: absolute;
+    left: 50%;
+    top: 85%;
+    transform: translate(-50%, -50%);
+  }
+
+  .backgroundDesign{
+    position: fixed;
+    top: 0px;
+    z-index: -1;
+    width: 100%;
+    height: 300px;
+    background-color: rgb(5, 150, 240);
   }
